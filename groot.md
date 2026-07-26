@@ -1,6 +1,6 @@
-# Personal Knowledge System
+# Work Knowledge System
 
-*A long-lived framework for organizing work, life, knowledge, projects, and decisions.*
+*A long-lived framework for organizing work knowledge, technical projects, AI collaboration, and durable decisions.*
 
 ---
 
@@ -16,21 +16,21 @@ Standards become habits.
 
 Habits become systems.
 
-Life creates the same pattern.
-
-Taxes, resumes, relationships, health decisions, family obligations, career tradeoffs, creative work, and half-formed ideas all generate context that matters later.
-
 Without deliberate organization, those systems eventually become fragmented, duplicated, and difficult to evolve.
 
 This system exists to prevent that.
 
-Its purpose is to create a coherent framework where every long-lived artifact has an intentional place, every project can build upon accumulated experience, and personal context continues to become more valuable instead of more difficult to manage.
+Its purpose is to create a coherent framework where every long-lived work artifact has an intentional place, every project can build upon accumulated experience, and technical context continues to become more valuable instead of more difficult to manage.
 
 The system is not the person.
 
 Greg remains Greg.
 
-The system is a tool for memory, organization, reflection, and action.
+Chat knows Greg. Groot knows Greg's work. Project agents know their project.
+
+The system is a tool for work memory, organization, reflection, and action.
+
+Normal ChatGPT may use broad personal context to help Greg think and make decisions. Groot and project agents should receive only work-related or project-relevant context.
 
 The goal is not organization for its own sake.
 
@@ -42,13 +42,11 @@ Every engineering decision should become easier to repeat.
 
 Every lesson should only need to be learned once.
 
-Every important life decision should have access to the context that makes it honest.
-
 ---
 
 # Problem Statement
 
-Modern life and technical work produce far more than source code.
+Modern technical work produces far more than source code.
 
 Projects generate:
 
@@ -62,12 +60,11 @@ Projects generate:
 - reusable components
 - career material
 - operational knowledge
-- financial records
-- personal notes
-- relationship context
+- work administration
 - decision tradeoffs
-- life constraints
-- long-running intentions
+- research notes
+- writing drafts
+- long-running technical intentions
 
 Most of these artifacts outlive the moment that created them.
 
@@ -81,7 +78,7 @@ Without a deliberate system, valuable information slowly becomes:
 
 Over time this increases cognitive load and slows future work.
 
-This framework treats long-term knowledge, memory, and decision context as a systems problem instead of a storage problem.
+This framework treats long-term work knowledge, memory, and decision context as a systems problem instead of a storage problem.
 
 ---
 
@@ -93,7 +90,7 @@ Capture durable information once.
 
 Allow it to evolve rather than be recreated.
 
-Preserve both technical knowledge and personal context that may influence future decisions.
+Preserve technical knowledge and work context that may influence future engineering, writing, career, or project decisions.
 
 ---
 
@@ -107,7 +104,7 @@ Reduce duplicated effort.
 
 Reduce unnecessary searching.
 
-Reduce the emotional and cognitive cost of reconstructing important context from memory.
+Reduce the cognitive cost of reconstructing important work context from memory.
 
 ---
 
@@ -129,9 +126,9 @@ Lessons learned.
 
 Decision criteria.
 
-Personal preferences.
+Technical preferences.
 
-Known constraints.
+Known project constraints.
 
 ---
 
@@ -143,7 +140,7 @@ Knowledge is cumulative.
 
 This framework distinguishes between the two.
 
-This applies to non-code projects as well: taxes, job searches, writing, relationships, moves, purchases, health routines, and other long-running areas of life may each have project-like activity without becoming permanent organizing principles themselves.
+This applies to work-adjacent projects as well: job searches, research, writing, portfolio work, technical evaluations, and work administration may each have project-like activity without becoming permanent organizing principles themselves.
 
 The framework owns the durable context.
 
@@ -161,7 +158,7 @@ AI becomes significantly more effective when stable context exists.
 
 The framework provides persistent context that should not need to be recreated for every conversation.
 
-This includes context about preferences, limitations, values, life circumstances, and tradeoffs that affect what good advice or good implementation actually means.
+This includes context about engineering preferences, standards, constraints, project history, and career goals that affect what good advice or good implementation actually means.
 
 ---
 
@@ -388,21 +385,18 @@ This system is expected to organize long-lived information related to:
 - Engineering
 - Software development
 - AI collaboration
-- Research
-- Writing
+- Research related to work
+- Writing related to work
 - Career development
 - Work
-- Personal life
-- Finances and taxes
-- Relationships
-- Health and routines
-- Home and relocation decisions
-- Creative ideas
 - Reusable templates
-- Decision history
-- Reference material
+- Work decision history
+- Technical reference material
+- Work administration, including personal finances or taxes only when relevant to work administration
 
 The exact structure will evolve as the system matures.
+
+Personal files such as `Nata.md` may be retained as cold archival records outside Groot's active architecture. Groot should not organize, automatically retrieve, expand, or build a personal knowledge system around them.
 
 ---
 
@@ -420,11 +414,11 @@ The completed system should include:
 - Documentation standards
 - Knowledge classification rules
 - Repository interaction model
-- Personal context model
-- Life project model
-- Decision records for work and life
-- Retention rules for sensitive information
-- AI collaboration rules for personal context
+- Work context model
+- Technical project model
+- Decision records for engineering, writing, research, career, and work administration
+- Retention rules for sensitive work information
+- AI collaboration rules for work-related context
 
 ---
 
@@ -438,9 +432,9 @@ The system succeeds when:
 - AI can leverage stable context instead of rebuilding it.
 - Projects remain clean and portable.
 - The system becomes easier to maintain as it grows rather than harder.
-- Personal decisions can draw on remembered context instead of vague recollection.
-- Work decisions and life constraints can be considered together when they are inseparable.
-- Sensitive information is retained deliberately, not accidentally.
+- Work decisions can draw on remembered context instead of vague recollection.
+- Project agents receive only the context their project needs.
+- Sensitive work information is retained deliberately, not accidentally.
 
 ---
 
