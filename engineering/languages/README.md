@@ -21,12 +21,18 @@ engineering/languages/
                 Version-specific deltas only.
 
     zig/
+        README.md
+            Zig guidance map.
         base.md
-            Placeholder for future Zig-wide guidance.
+            Zig guidance that applies across supported Zig versions.
+        profiles/
+            tigerstyle.md
+                Strict deterministic-systems engineering profile.
         versions/
             0.13.md
             0.14.md
-                Placeholder version-specific deltas.
+            0.17.md
+                Version-specific deltas only.
 
     portable/
         project-guidance-snapshots.md
@@ -43,6 +49,7 @@ engineering/languages/
 - Version files must not duplicate the full base guide.
 - If guidance applies across every supported version, it belongs in `base.md`.
 - If guidance applies only to one language version, it belongs in that version delta.
+- If guidance is a stricter or specialized engineering profile rather than language-wide guidance, put it under `engineering/languages/<language>/profiles/`.
 - If guidance applies only to one project, it belongs in that project's repository, not here.
 - If project guidance becomes reusable, process it back into Groot deliberately instead of treating the project copy as canonical.
 
@@ -51,10 +58,11 @@ engineering/languages/
 For a project using one language:
 
 1. Copy the language base guide.
-2. Copy the applicable version delta, when the project targets a specific version.
-3. Merge or reference those copied sections inside the project's own `AGENTS.md`.
-4. Add project-specific guidance after the copied language guidance.
-5. Record the Groot source paths and snapshot date in the copied file.
+2. Copy any explicitly applicable profile.
+3. Copy the applicable version delta, when the project targets a specific version.
+4. Merge or reference those copied sections inside the project's own `AGENTS.md`.
+5. Add project-specific guidance after the copied language guidance.
+6. Record the Groot source paths and snapshot date in the copied file.
 
 The resulting project repository must remain standalone. It must not require Groot to build, test, review, or submit.
 
