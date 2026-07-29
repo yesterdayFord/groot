@@ -8,4 +8,4 @@ Treat GitHub `main` as NeonMatch’s durable source of truth.
 
 For repository-related work, inspect the current repository rather than relying solely on conversation memory.
 
-Read the repository as needed. Update `neon-match.md` when the user asks to make approved project guidance durable, and verify the resulting change on `main`.
+When the user approves making project guidance durable, update `neon-match.md`, commit and push the change directly to `main`, and verify that it appears there.
