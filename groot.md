@@ -237,6 +237,20 @@ If the correct location for new information is not obvious, the architecture sho
 
 ---
 
+## Active context stays lean.
+
+Frequently used and active projects should automatically load only the context that is routinely useful.
+
+- Preserve heavyweight source documents and images in durable storage without making them default context.
+- Create focused, structured Markdown summaries for routine retrieval.
+- Keep references to the original sources so they can be consulted when verification or deeper analysis is needed.
+- Prefer a short operational summary over an exhaustive replacement unless the detail is genuinely reusable.
+- Remove stale attachments, instructions, and duplicated summaries gradually as the project is used.
+
+The goal is not to discard information. The goal is to make switching topics inexpensive while keeping deeper evidence available on demand.
+
+---
+
 # Engineering Delivery Pipeline
 
 This is a repeatable engineering pattern for projects where correctness, readability, and delivery judgment matter.
